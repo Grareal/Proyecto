@@ -25,8 +25,25 @@ body{
     text-align: center;
     border-radius: 20px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .video{
     text-align: center;
+    height: 450px;
+    
+}
+
+iframe{
+    width: 60%;
+    height: 80%;
+}
+
+@media screen and (max-width:767px) {
+    iframe{
+        width: 100%;
+    }
+    .contenido{
+        margin-bottom: 10px;
+    }
 }
