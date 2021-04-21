@@ -138,13 +138,13 @@ h3{
     }
 
     .menu-bar .btn-menu{
+        display: block;
         padding: 20px;
         background-color: #0d1e30;
         color:#fff;
         text-decoration: none;
         font-weight: bold;
         font-size: 25px;
-        width: 100%;
 
     }
 
