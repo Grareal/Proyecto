@@ -4,7 +4,8 @@ var contador =1;
 
 
 function main(){
-    $('.btn-menu').click(function(){
+    var button = document.getElementById("btn");
+    button.onclick=()=>{
         if(contador==1){
             $('nav').animate({
                 left:'0'
@@ -18,5 +19,5 @@ function main(){
             });
             contador=1;
         }
-    });
-};
+    }
+}
