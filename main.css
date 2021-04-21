@@ -6,6 +6,42 @@
     
 }
 
+header{
+    width: 100%;
+}
+header nav{
+    
+    width: 90%;
+    margin: 20px auto;
+    
+    max-width: 1000px;
+    background-color: #0d1e30;
+}
+.menu-bar{
+    display: none;
+}
+
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a{
+    color:#fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+
+}
+
+header nav ul li span{
+    margin-right: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: #031c30;
+}
+
 body{
     background: #0061a9;
 
@@ -26,6 +62,7 @@ body{
     border-radius: 20px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    clear: both;
 }
 
 .video{
@@ -78,5 +115,41 @@ h3{
     h3{
         bottom: 10px;
         left: 30px;
+    }
+
+    header nav{
+        width: 80%;
+        margin:0;
+        left: -100%;
+        position: fixed;
+    }
+
+    header nav ul li{
+        display: block;
+        float: none;
+        border-bottom: solid 1px white;
+    }
+
+    .menu-bar{
+        display: block;
+        width: 100%;
+        background-color: #ccc;
+        
+    }
+
+    .menu-bar .btn-menu{
+        display: block;
+        padding: 20px;
+        background-color: #0d1e30;
+        color:#fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+
+    }
+
+    .menu-bar span{
+        float: right;
+        font-size: 40px;
     }
 }
