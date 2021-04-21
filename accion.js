@@ -7,6 +7,8 @@ var contador =1;
 function main(){
     var button = document.getElementById("btn");
     button.onclick=()=>{
+        alert("Si funciona");
+
         if(contador==1){
             $('nav').animate({
                 left:'0'
