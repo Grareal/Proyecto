@@ -61,8 +61,10 @@ body{
     text-align: center;
     border-radius: 20px;
     margin-bottom: 10px;
-    padding-bottom: 10px;
     clear: both;
+    
+    max-width: 700px;
+    margin: auto;
 }
 
 .video{
@@ -89,7 +91,7 @@ h3{
     width: 80%;
     clear: both;
     position: relative;
-    left: 250px;
+    left: 70px;
 }
 
 @media screen and (max-width:767px) {
@@ -151,5 +153,65 @@ h3{
     .menu-bar span{
         float: right;
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .video{
+        width: 96%;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .nombres{
+        width: 290px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .video{
+        margin: 20px 0px 80px 0px;
+    }
+
+    .elementos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contenido{
+        font-size: 15px;
+        width: 40%;
+    }
+    .nombres{
+        height: 50%;
+        margin-right: 40px;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .video{
+        margin: 50px auto;
+        
+    }
+
+    .elementos{
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (min-width:1440px){
+    .container{
+        width: 70%;
+    }
+    .elementos{
+        justify-content: center;
     }
 }
