@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3. Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <form action="#" method="POST">
+        
+        <fieldset>
+
+            <legend>Llenar el siguiente formulario</legend>
+
+            <table>
+
+                <thead>
+
+                    <th>Requisito</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="nombre">Nombre</label></td>
+
+                        <td><input type="text" name="nombre" id="nombre" required placeholder="Ingresa tu nombre: " required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Email</label></td>
+
+                        <td><input type="email" name="correo" id="correo" placeholder="Ingresa tu correo: "></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Telfono</label></td>
+
+                        <td><input type="number" name="telefono" id="telefono" placeholder="Ingresa tu numero "></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Sexo</label></td>
+
+                        <td><input type="radio" name="genero" value="femenino">Femenino
+
+                            <input type="radio"  name="genero" value="masculino">Masculino
+
+                            <input type="radio"  name="genero" value="otro">Otro
+
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td><label>Fecha</label></td>
+
+                        <td><input type="date" name="fecha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="foto">Foto</label></td>
+
+                        <td><input type="image" src="naruto.jpg" width="60px" alt="imagen" ></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Registrar"></td>
+                    </tr>
+                    
+                </tbody>
+        
+            </table>
+        </fieldset>
+        
+    </form>
+
+
+    <div class="informacion">
+        <h3>Con la ayuda de una tabla crea un formulario en dos columnas con los siguientes campos</h3>
+        <ul>
+            <li>Nombre</li>
+            <li>Correo</li>
+            <li>Teléfono</li>
+            <li>Género</li>
+            <li>Fecha de nacimiento</li>
+            <li>Foto</li>
+            <li>Mensaje</li>
+            <li>Botón de enviar</li>    
+        </ul>
+    </div>
+    
+    
+    
+</body>
+</html>

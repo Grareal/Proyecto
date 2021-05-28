@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+h1{
+  
+    color: #ffffff;
+    background-color: #9b9b9b ;
+    font-family:'beryluim';
+    font-style: italic;
+    font-size: 36px;
+    
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+@font-face {
+    src:url(BeryliumItalic.ttf);
+    font-family:'beryluim';
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5. Maquetar tabla</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+    <table border="1px">
+        
+        <caption id="cap"><h1>Su pedido</h1></caption>
+
+        <thead>
+            <th>Nombre del producto</th>
+            <th>precio unitario</th>
+            <th>Unidades</th>
+            <th>Subtotal</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Reproductor MP3(80GB)</td>
+                <td>$192.02MXN</td>
+                <td>1</td>
+                <td>$192.02</td>
+            </tr>
+
+            <tr>
+                <td>Fundas de colores</td>
+                <td>$2.50MXN</td>
+                <td>5</td>
+                <td>$12.50</td>
+            </tr>
+
+            <tr>
+                <td>Reproductor de radio y control remoto</td>
+                <td>$12.99MXN</td>
+                <td>1</td>
+                <td>$12.99</td>
+            </tr>
+
+            <tr>
+                <td class="subtotal">SUBTOTAL</td>
+                <td rowspan="3" colspan="2"></td>
+                <td>$207.01</td>
+            </tr>
+            <tr>
+                <td class="iva">IVA</td>
+                <td>$33.12</td>
+            </tr>
+
+            <tr>
+                <td class="total">TOTAL</td>
+                <td>$240.13</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

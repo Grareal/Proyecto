@@ -1,0 +1,35 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.audio{
+
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+
+.video{
+    width: 100%;
+
+    text-align: center;
+}
+
+video{
+    width: 50%;
+}
+
+h1{
+    float: left;
+}
+
+
+.pagina iframe{
+    margin-left: 5px;
+}
+
+
+.pagina p, .mapa p{
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+form{
+    margin: 40px auto;
+    width: 40%;
+    text-align: center;
+}
+body{
+    background-color: darkcyan;
+}
+
+fieldset{
+    background-color: cornflowerblue;
+
+}
+
+legend{
+    background-color: cornflowerblue;
+}
+
+
+
+input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.informacion{
+text-align: center;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
